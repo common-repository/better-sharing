@@ -1,0 +1,171 @@
+$h3-font-weight: 300;
+$h3-margins: 0 0 1rem;
+
+$h4-font-weight: 300;
+$h4-margins: 0 0 1rem;
+
+$radius: 5px;
+
+$input-padding: 1rem;
+$input-radius: $radius 0 0 $radius;
+$input-font-size: 1rem;
+
+$button-padding: $input-padding;
+$button-background: #43454b;
+$button-font-color: #fff;
+$button-font-weight: 600;
+$button-font-size: 1rem;
+$button-radius: 0 $radius $radius 0;
+$button-hover-opacity: 0.9;
+
+
+.bswp-automatewoo-share-link {
+  margin-bottom: 2rem;
+
+  h3 {
+    font-weight: $h3-font-weight;
+    margin: $h3-margins;
+  }
+
+  .bswp-automatewoo-share-link-key {
+    display: flex;
+    flex-direction: row;
+
+    input {
+      flex-grow: 1;
+      padding: $input-padding;
+      border-radius: $input-radius;
+      font-size: $input-font-size;
+    }
+
+    span.button {
+      background: $button-background;
+      color: $button-font-color;
+      font-weight: $button-font-weight;
+      font-size: $button-font-size;
+      border-radius: $button-radius;
+      padding: $button-padding;
+      margin: 0;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.3rem;
+      cursor: pointer;
+
+      &:hover {
+        opacity: $button-hover-opacity;
+      }
+      
+      @media only screen and (max-width: 920px) {
+        span:nth-of-type(2) {
+          display: none;
+        }
+      }
+    }
+
+    .bswp-automatewoo-share-link-key-copy-confirm {
+      display: none;
+      font-size: $button-font-size;
+      padding: $button-padding;
+      margin: 0;
+    }
+  }
+}
+
+.bswp-share-emails-title {
+  font-weight: $h3-font-weight;
+  margin: $h3-margins;
+}
+
+.bswp-share-buttons {
+  &.bswp-share-emails {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+
+    input {
+      flex-grow: 1;
+      padding: $input-padding;
+      border-radius: $input-radius;
+      font-size: $input-font-size;
+    }
+
+    a.add-from-address-book-init {
+      background:$button-background;
+      color: $button-font-color;
+      font-weight: $button-font-weight;
+      font-size: $button-font-size;
+      border-radius: $button-radius;
+      padding: $button-padding;
+      margin: 0;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+      
+      &:hover {
+        opacity: $button-hover-opacity;
+      }
+
+      @media only screen and (max-width: 920px) {
+        span:nth-of-type(2) {
+          display: none;
+        }
+      }
+
+    }
+  }
+
+  .bswp-submit {
+    background:$button-background;
+    color: $button-font-color;
+    font-weight: $button-font-weight;
+    font-size: $button-font-size;
+    padding: $button-padding;
+  }
+  .bswp-submit:hover {
+    opacity: $button-hover-opacity;
+  }
+}
+
+.bswp-share-email-preview {
+  text-align: left;
+
+  h4 {
+    font-weight: $h4-font-weight;
+    margin: $h4-margins;
+  }
+  input,
+  textarea {
+    padding: $input-padding;
+    border-radius: $input-radius;
+    font-size: $input-font-size;
+  }
+
+  pre {
+    background: none;
+    font-style: inherit;
+    white-space: normal;
+    width: 100%;
+  }
+
+  .bswp-share-email-preview-subject,
+  .bswp-share-email-preview-message {
+    strong {
+      display: block;
+      font-size: 1rem;
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      border-radius: $radius;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      padding: 1rem;
+    }
+  }
+}

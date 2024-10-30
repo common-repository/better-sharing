@@ -1,0 +1,41 @@
+#TB_ajaxContent {
+  form {
+  height: 96%;
+  .bswp__addon__settings-group {
+    height: 90%; 
+    .bswp__id-addon-settings {
+      height: 100%; 
+      a {
+        text-decoration: none;
+      }
+      .bswp-list-wrapper { 
+        height: 90%;
+        overflow-y: scroll;
+        .bswp-setting-row {
+          display: flex;
+          align-items: center;
+          margin-top: 4px;
+          select {
+            width: 55%;
+          }
+         
+          .dashicons-remove {
+            color: #ff0000;
+            margin-left: 4px;
+          }
+        }
+        .bswp-id-control {
+          margin-top: 10px;
+          .bswp-add-hook {
+            color: #2271b1;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+  .error {
+    color: #ff0000;
+  } 
+}

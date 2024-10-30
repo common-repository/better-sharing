@@ -1,0 +1,205 @@
+# Copyright (C) 2024 CloudSponge
+# This file is distributed under the GPL-3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Sharing 2.6.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/better-sharing-wp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: CloudSponge\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-08T16:16:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: better-sharing-wp\n"
+
+#. Plugin Name of the plugin
+msgid "Better Sharing"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add essential viral sharing functionality to any WordPress site."
+msgstr ""
+
+#. Author of the plugin
+msgid "CloudSponge"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.cloudsponge.com"
+msgstr ""
+
+#. translators: Campaign title, Platform name, Goal, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:292
+msgid "Check out this crowdfunding campaign! Help  %s on %s reach its goal of %s.</br></br>%s"
+msgstr ""
+
+#. translators: Campaign title, Platform name, %40IgnitionDeck%0D%0D,  %23crowdfunding
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:304
+msgid "Help make it happen for %s on %s. %s %s"
+msgstr ""
+
+#. translators: Campaign title, Platform name, Goal, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:316
+msgid "Please help my crowdfunding campaign, %s on %s, reach its goal of %s. Every little bit helps to get the project across the finish line.</br></br>%s"
+msgstr ""
+
+#. translators: %23crowdfunding, Campaign title, Goal, Platform name, %40IgnitionDeck%0D%0D
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:328
+msgid "Please support my %s campaign, %s  to reach its goal of %s on %s. Every little bit helps to get the project across the finish line. %s"
+msgstr ""
+
+#. translators: Campaign title, Platform name, Goal, Amount left, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:351
+msgid "Check out this crowdfunding campaign that I just supported! Help %s on %s reach its goal of %s. It needs %s more to get there, and every little bit helps!</br></br>%s"
+msgstr ""
+
+#. translators: Bakers count, Campaign title, Platform name, Amount left, Goal, %23crowdfunding, %40IgnitionDeck%0D%0D
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:364
+msgid "I just joined %s other people who have backed %s on %s. It needs %s more to reach its goal of %s! %s %s"
+msgstr ""
+
+#. translators: Campaign title, Platform name, Goal, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:380
+msgid "Check out this crowdfunding campaign that I just supported! Help %s on %s reach its goal of %s.</br></br>%s"
+msgstr ""
+
+#. translators: Bakers count, Campaign title, Platform name, %23crowdfunding, %40IgnitionDeck%0D%0D
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:392
+msgid "I just joined %s other people who have backed %s on %s. %s %s"
+msgstr ""
+
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:422
+msgid "No IgnitionDeck Sharing Block available or its status is not <b>publish</b>!"
+msgstr ""
+
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:429
+msgid "No IgnitionDeck Hooks to trigger Better Sharing available!"
+msgstr ""
+
+#: includes/AddOnsCore.php:36
+msgid "Wrong parent class used for add_on"
+msgstr ""
+
+#: includes/API/Email.php:222
+msgid "No Email Found!"
+msgstr ""
+
+#: includes/API/Email.php:316
+#: includes/API/Email.php:373
+#: tests/includes/API/Email/ValidateEmailsClass.php:63
+msgid "Success!"
+msgstr ""
+
+#: includes/API/Email.php:321
+#: tests/includes/API/Email/ValidateEmailsClass.php:27
+#: tests/includes/API/Email/ValidateEmailsClass.php:44
+msgid "No Email(s) Found!"
+msgstr ""
+
+#: includes/API/Email.php:328
+#: includes/config/i18n.php:9
+msgid "Enter only valid email(s)!"
+msgstr ""
+
+#: includes/API/Email.php:431
+msgid "Your message contains unauthorized content."
+msgstr ""
+
+#: includes/API/Email.php:437
+msgid "The email has been sent successfully!"
+msgstr ""
+
+#: includes/API/Email.php:474
+msgid "Too many emails!"
+msgstr ""
+
+#: includes/API/Email.php:737
+msgid "The email has been sent successfully."
+msgstr ""
+
+#: includes/API/Email.php:744
+msgid "Sending mails failed! Try again later!"
+msgstr ""
+
+#: includes/API/Email.php:750
+msgid "Errors while sending mails! Check the email addresses!"
+msgstr ""
+
+#: includes/config/i18n.php:6
+msgid "Email Subject Preview:"
+msgstr ""
+
+#: includes/config/i18n.php:7
+msgid "Email Message Preview:"
+msgstr ""
+
+#: includes/config/i18n.php:8
+msgid "No email(s) found!"
+msgstr ""
+
+#: includes/config/i18n.php:10
+msgid "Message is required!"
+msgstr ""
+
+#: includes/config/i18n.php:11
+msgid "The emails exceed the limit!"
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:42
+msgid "Share via Email"
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:44
+msgid "Invite people to use your referral code."
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:53
+#: includes/templates/modules/bswp-form.php:128
+msgid "Add From Contacts"
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:63
+msgid "Email Preview"
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:65
+msgid "This is the email that your referrals will see."
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:68
+msgid "Subject"
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:73
+msgid "Message"
+msgstr ""
+
+#: includes/templates/bswp-form-addons.php:86
+#: includes/templates/bswp-form-addons.php:90
+#: includes/templates/modules/bswp-form.php:156
+msgid "Send"
+msgstr ""
+
+#: includes/templates/modules/bswp-referral-link.php:38
+#: includes/templates/modules/bswp-referral-link.php:46
+#: includes/templates/modules/bswp-referral-link.php:48
+msgid "Copy"
+msgstr ""
+
+#: includes/templates/modules/bswp-referral-link.php:39
+msgid "Copied!"
+msgstr ""
+
+#: includes/templates/modules/bswp-social-share.php:34
+msgid "X.com"
+msgstr ""
+
+#: includes/templates/modules/bswp-social-share.php:58
+msgid "Facebook"
+msgstr ""
+
+#: tests/includes/OptionData/SaveOptionsClass.php:51
+msgid "message"
+msgstr ""

@@ -1,0 +1,236 @@
+# Copyright (C) 2024 CloudSponge
+# This file is distributed under the GPL-3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Sharing 2.6.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/better-sharing-"
+"wp\n"
+"POT-Creation-Date: 2024-05-08T16:16:38+00:00\n"
+"PO-Revision-Date: 2024-05-09 10:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: CloudSponge\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: better-sharing-wp\n"
+
+#. Plugin Name of the plugin
+msgid "Better Sharing"
+msgstr "Better Sharing"
+
+#. Description of the plugin
+msgid "Add essential viral sharing functionality to any WordPress site."
+msgstr "Функционалност за споделяне за всеки WordPress сайт."
+
+#. Author of the plugin
+msgid "CloudSponge"
+msgstr "CloudSponge"
+
+#. Author URI of the plugin
+msgid "https://www.cloudsponge.com"
+msgstr "https://www.cloudsponge.com"
+
+#. translators: Campaign title, Platform name, Goal, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:292
+msgid ""
+"Check out this crowdfunding campaign! Help  %s on %s reach its goal of %s.</"
+"br></br>%s"
+msgstr ""
+"Провери тази кампания за набиране на средства! Помогни %s в %s да постигне "
+"целта си %s.</br></br>%s"
+
+#. translators: Campaign title, Platform name, %40IgnitionDeck%0D%0D,  %23crowdfunding
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:304
+msgid "Help make it happen for %s on %s. %s %s"
+msgstr "Помогни да се случи %s на %s. %s %s"
+
+#. translators: Campaign title, Platform name, Goal, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:316
+msgid ""
+"Please help my crowdfunding campaign, %s on %s, reach its goal of %s. Every "
+"little bit helps to get the project across the finish line.</br></br>%s"
+msgstr ""
+"Моля, помогнете на моята кампания за набиране на средства, %s на %s, да "
+"постигне целта си от %s. Всеки принос е от значение за постигане на "
+"крайната цел.</br></br>%s"
+
+#. translators: %23crowdfunding, Campaign title, Goal, Platform name, %40IgnitionDeck%0D%0D
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:328
+msgid ""
+"Please support my %s campaign, %s  to reach its goal of %s on %s. Every "
+"little bit helps to get the project across the finish line. %s"
+msgstr ""
+"Моля, подкрепете моята кампания %s, %s  да постигне целта си от %s на %s. "
+"Всеки принос е от значение за постигане на крайната цел. %s"
+
+#. translators: Campaign title, Platform name, Goal, Amount left, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:351
+msgid ""
+"Check out this crowdfunding campaign that I just supported! Help %s on %s "
+"reach its goal of %s. It needs %s more to get there, and every little bit "
+"helps!</br></br>%s"
+msgstr ""
+"Вижте кампанията за набиране на средства, която току що подкрепих! "
+"Помогнете %s на %s да постигне крайната си цел %s. Нуждае се от %s, за да "
+"бъде постигната!</br></br>%s"
+
+#. translators: Bakers count, Campaign title, Platform name, Amount left, Goal, %23crowdfunding, %40IgnitionDeck%0D%0D
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:364
+msgid ""
+"I just joined %s other people who have backed %s on %s. It needs %s more to "
+"reach its goal of %s! %s %s"
+msgstr ""
+"Току що се присъединих към %s други, които подкрепиха %s на %s. Нуждае се "
+"от още %s, за да бъде постигната крайната цел %s! %s %s"
+
+#. translators: Campaign title, Platform name, Goal, Project short description
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:380
+msgid ""
+"Check out this crowdfunding campaign that I just supported! Help %s on %s "
+"reach its goal of %s.</br></br>%s"
+msgstr ""
+"Вижте кампанията за набиране на средства, която току-що подкрепих! "
+"Помогнете %s на %s да постигне крайната цел %s.</br></br>%s"
+
+#. translators: Bakers count, Campaign title, Platform name, %23crowdfunding, %40IgnitionDeck%0D%0D
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:392
+msgid "I just joined %s other people who have backed %s on %s. %s %s"
+msgstr "Току що се присъединих към %s други, които подкрепиха %s на %s. %s %s"
+
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:422
+msgid ""
+"No IgnitionDeck Sharing Block available or its status is not <b>publish</b>!"
+msgstr ""
+"Няма наличен IgnitionDeck Sharing Block или статуса му не е <b>Publish</b>!"
+
+#: includes/AddOns/IgnitionDeck/IgnitionDeck.php:429
+msgid "No IgnitionDeck Hooks to trigger Better Sharing available!"
+msgstr "Няма IgnitionDeck Hooks, които да изпълнят Better Sharing!"
+
+#: includes/AddOnsCore.php:36
+msgid "Wrong parent class used for add_on"
+msgstr "Грешен родителски клас използван за add_on"
+
+#: includes/API/Email.php:222
+msgid "No Email Found!"
+msgstr "Няма открит email!"
+
+#: includes/API/Email.php:316 includes/API/Email.php:373
+#: tests/includes/API/Email/ValidateEmailsClass.php:63
+msgid "Success!"
+msgstr "Успех!"
+
+#: includes/API/Email.php:321
+#: tests/includes/API/Email/ValidateEmailsClass.php:27
+#: tests/includes/API/Email/ValidateEmailsClass.php:44
+msgid "No Email(s) Found!"
+msgstr "Не са открити email-и!"
+
+#: includes/API/Email.php:328 includes/config/i18n.php:9
+msgid "Enter only valid email(s)!"
+msgstr "Въведете само валидни email адреси!"
+
+#: includes/API/Email.php:431
+msgid "Your message contains unauthorized content."
+msgstr "Съобщението ви съдържа неразрешено съдържание."
+
+#: includes/API/Email.php:437
+msgid "The email has been sent successfully!"
+msgstr "Email съобщението е изпратено успешно!"
+
+#: includes/API/Email.php:474
+msgid "Too many emails!"
+msgstr "Прекалено много email-и!"
+
+#: includes/API/Email.php:737
+msgid "The email has been sent successfully."
+msgstr "Email съобщението е изпратено успешно."
+
+#: includes/API/Email.php:744
+msgid "Sending mails failed! Try again later!"
+msgstr "Изпращането на email-и се провали. Моля, опитайте по-късно!"
+
+#: includes/API/Email.php:750
+msgid "Errors while sending mails! Check the email addresses!"
+msgstr ""
+"Възникнаха грешки по време на изпращането на email-и! Моля, проверете email "
+"адресите!"
+
+#: includes/config/i18n.php:6
+msgid "Email Subject Preview:"
+msgstr "Преглед на тема:"
+
+#: includes/config/i18n.php:7
+msgid "Email Message Preview:"
+msgstr "Преглед на съобщение:"
+
+#: includes/config/i18n.php:8
+msgid "No email(s) found!"
+msgstr "Не са открити email-и!"
+
+#: includes/config/i18n.php:10
+msgid "Message is required!"
+msgstr "Съобщението е задължително!"
+
+#: includes/config/i18n.php:11
+msgid "The emails exceed the limit!"
+msgstr "Надвишен лимит на съобщения!"
+
+#: includes/templates/bswp-form-addons.php:42
+msgid "Share via Email"
+msgstr "Сподели чрез Email"
+
+#: includes/templates/bswp-form-addons.php:44
+msgid "Invite people to use your referral code."
+msgstr "Покани хора да използват вашия код за споделяне."
+
+#: includes/templates/bswp-form-addons.php:53
+#: includes/templates/modules/bswp-form.php:128
+msgid "Add From Contacts"
+msgstr "Добави от контакти"
+
+#: includes/templates/bswp-form-addons.php:63
+msgid "Email Preview"
+msgstr "Преглед на Email"
+
+#: includes/templates/bswp-form-addons.php:65
+msgid "This is the email that your referrals will see."
+msgstr "Това е email-а, който хората с които споделяте ще видят."
+
+#: includes/templates/bswp-form-addons.php:68
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/templates/bswp-form-addons.php:73
+msgid "Message"
+msgstr "Съобщение"
+
+#: includes/templates/bswp-form-addons.php:86
+#: includes/templates/bswp-form-addons.php:90
+#: includes/templates/modules/bswp-form.php:156
+msgid "Send"
+msgstr "Изпрати"
+
+#: includes/templates/modules/bswp-referral-link.php:38
+#: includes/templates/modules/bswp-referral-link.php:46
+#: includes/templates/modules/bswp-referral-link.php:48
+msgid "Copy"
+msgstr "Копирай"
+
+#: includes/templates/modules/bswp-referral-link.php:39
+msgid "Copied!"
+msgstr "Копиран!"
+
+#: includes/templates/modules/bswp-social-share.php:34
+msgid "X.com"
+msgstr "X.com"
+
+#: includes/templates/modules/bswp-social-share.php:58
+msgid "Facebook"
+msgstr "Facebook"
+
+#: tests/includes/OptionData/SaveOptionsClass.php:51
+msgid "message"
+msgstr "съобщение"

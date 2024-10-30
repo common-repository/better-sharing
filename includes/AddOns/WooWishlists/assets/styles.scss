@@ -1,0 +1,92 @@
+$radius: 5px;
+
+$input-padding: 1rem;
+$input-radius: $radius;
+$input-font-size: 1rem;
+
+$button-padding: $input-padding;
+$button-background: #43454b;
+$button-font-color: #fff;
+$button-font-weight: 600;
+$button-font-size: 1rem;
+$button-radius: $radius;
+$button-hover-opacity: 0.9;
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+a.add-from-address-book-init.button  {
+  background:$button-background;
+  color: $button-font-color;
+  font-weight: $button-font-weight;
+  font-size: $button-font-size;
+  border-radius: $button-radius;
+  padding: $button-padding;
+  margin: 0;
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  
+  &:hover {
+    opacity: $button-hover-opacity;
+  }
+
+  @media only screen and (max-width: 920px) {
+    span:nth-of-type(2) {
+      display: none;
+    }
+  }
+}
+
+.wl-modal {
+  top: 35%;
+
+  h1 {
+    font-size: 2.617924em;
+    line-height: 1.214;
+    letter-spacing: -1px;
+  }
+  .wl-modal-header {
+    .close {
+      padding: 4px 8px;
+    }
+  }
+  .wl-modal-body {
+    max-height: 700px;
+
+    .form-row-wide {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    input[type=text], textarea {
+      padding: $input-padding;
+      border-radius: $input-radius;
+      font-size: $input-font-size;
+      margin: 0;
+      width: auto;
+    }
+  }
+
+  .wl-modal-footer {
+    .button {
+      background:$button-background;
+      color: $button-font-color;
+      font-weight: $button-font-weight;
+      font-size: $button-font-size;
+      padding: $button-padding;
+    }
+    .button:hover {
+      opacity: $button-hover-opacity;
+    }
+  }
+}
